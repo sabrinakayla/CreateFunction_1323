@@ -1,4 +1,5 @@
-def Converts temperature(value, unit):
+#KONVERSI SUHU
+def Converts_temperature(value, unit):
     if unit == 'C':
         return value * 9/5 + 32
     elif unit == 'F':
@@ -7,7 +8,7 @@ def Converts temperature(value, unit):
 Input_value = int(input("Masukkan value : "))
 Input_unit = input("Masukkan unit : ")
 
-Konversi = Converts temperature(Input_value, Input_unit)
+Konversi = Converts_temperature(Input_value, Input_unit)
 
 if Input_unit == 'C':
     print(Konversi)
